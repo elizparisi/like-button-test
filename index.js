@@ -1,11 +1,14 @@
-let counter = document.querySelector("#counter");
+let counter = document.getElementById("counter");
 let count = 0;
 
-let likeButton = document.querySelector("#like_button");
+let likeButton = document.getElementById("like_button");
 
 let unlikeButton = document.querySelector("unlike_button");
 
-
+likeButton.addEventListener("click", () => {
+  count++;
+  counter.innerHTML = count;
+});
 
 // const buttonText = document.querySelector("button");
 //
