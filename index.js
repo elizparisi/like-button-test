@@ -1,7 +1,7 @@
 const buttonText = document.querySelector("button");
 
 const buttonClick = document.querySelector(".click");
-buttonClick.addEventListener("click");
+buttonClick.addEventListener("click", likePost);
 
 const buttonReset = document.querySelector(".reset")
 button.addEventListener("click");
@@ -18,4 +18,10 @@ function likePost() {
   else {
     buttonText.innerHTML = (numOfLikes + " " + "Likes")
   }
+}
+
+function resetLikes() {
+  numOfLikes = 0;
+
+  buttonText.innerHTML = numOfLikes + "Likes";
 }
