@@ -10,6 +10,11 @@ likeButton.addEventListener("click", () => {
   counter.innerHTML = count;
 });
 
+unlikeButton.addEventListener("click" () => {
+  count--;
+  counter.innerHTML = count;
+})
+
 // const buttonText = document.querySelector("button");
 //
 // const buttonClick = document.querySelector(.click);
