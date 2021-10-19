@@ -1,6 +1,11 @@
 let counter = document.querySelector("#counter");
 let count = 0;
 
+let likeButton = document.querySelector("#like_button");
+
+let unlikeButton = document.querySelector("unlike_button");
+
+
 
 // const buttonText = document.querySelector("button");
 //
